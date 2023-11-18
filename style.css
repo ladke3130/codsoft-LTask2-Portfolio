@@ -1,0 +1,250 @@
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blueviolet; */
+}
+#head-menu ul{
+    display: flex;
+    list-style: none;
+    margin-right: -90px;
+    
+}
+#head-menu ul li{
+    padding: 0px 50px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+#head-menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+#head-menu ul li:hover{
+    cursor: pointer;
+    /* background-color: purple; */
+    /* color: aliceblue; */
+    /* border-radius: 30px;  */
+}
+#head-name{
+    margin-left: -80px;
+    margin-top: 10px;
+    font-family: 'Young Serif', serif;
+    
+    
+
+}
+#main1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: -30px;
+}
+#img1 img{
+    margin-top: 70px;
+    width: 300px;
+    height: 430px;
+    border-radius:15px;
+    margin-left: 70px;
+}
+#left-main{
+    display: grid;
+    justify-content: center;
+    margin-top: 140px;
+}
+#left-main h1{
+    font-family: 'Montserrat', sans-serif;
+}
+#left-main p{
+    font-size: 20px;
+    margin-top: -10px;
+}
+#links{
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 190px;
+    margin-top: 20px;
+    
+}
+#links a{
+    color: rgb(48, 70, 182);
+    padding: 0px 15px;
+}
+#btn{
+    display: flex;
+    margin-top: 50px;
+    margin-left: -12px;
+    
+}
+#btn button{
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Roboto', sans-serif;
+}
+#btn button:hover{
+    background-color: black;
+}
+#btn button a{
+    color: white;
+    text-decoration: none;
+}
+#main2{
+    display: flex;
+    justify-content: space-around;
+}
+#main2-right{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+#main2-right h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#main2-right p{
+    font-size: 20px;
+    margin-top: -10px;
+}
+#main2-img img{
+    width: 450px;
+    height: 400px;
+
+    margin-left: -70px;
+
+}
+#main3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+#main3-left h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#main3-img img{
+    width: 550px;
+    /* background-color: aqua; */
+    margin-right: -100px;
+}
+.progress{
+    margin-top: 10px;   
+}
+#progress-bar{
+    /* display: flex; */
+    width: 400px;
+}
+#main4-heading{
+    /* display: flex; */
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#main4-pro-name{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 25px;
+    
+}
+.project{
+    background-color: rgb(177, 177, 232);
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 12px;
+    box-shadow: 5px 5px 10px;
+    /* opacity: 20px;    */
+    /* display: flex; */
+    /* justify-content: center; */   
+}
+.pro-heading{
+    display: flex;
+}
+.pro-body{
+    margin-left: 20px;
+}
+.fa-solid{
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pro-btn{
+    text-align: center;
+}
+.pro-btn button{
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    padding: 0px 10px;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    
+    
+}
+.pro-btn button:hover{
+    background-color: black;
+}
+.pro-btn button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+
+}
+#main5{
+    display: flex;
+    justify-content: space-around;
+}
+#main5-img img{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: -100px;
+}
+#main5-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+#main5-btn button{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#main5-btn button:hover{
+    background-color: black;
+}
+#foot{
+    padding-top: 50px;
+    height: 300px;
+    padding-left: 20px;
+    background-color:darkgray;
+}
+@media (max-width:768px){
+
+}
